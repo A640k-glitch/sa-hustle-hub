@@ -1,0 +1,138 @@
+/* SA Hustle Hub — Vanilla CSS (Mobile-First, Data-Lite) */
+/* System fonts only. No external requests. */
+
+:root {
+  --green: #2e7d32;
+  --green-light: #4caf50;
+  --gold: #f9a825;
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --muted: #666;
+  --radius: 8px;
+  --shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container { width: 100%; max-width: 700px; margin: 0 auto; padding: 0 16px; }
+
+/* ── Header ── */
+header {
+  background: var(--green);
+  color: #fff;
+  padding: 20px 0 16px;
+  text-align: center;
+}
+header h1 { font-size: 1.6rem; }
+header .tagline { font-size: 0.9rem; opacity: 0.85; margin: 4px 0 12px; }
+header #search {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  outline: none;
+}
+
+/* ── Filter Bar ── */
+#filter-bar {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  padding: 16px 0 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 2px solid var(--green);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--green);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: var(--green);
+  color: #fff;
+}
+
+/* ── Card Grid ── */
+.card-grid { display: grid; gap: 14px; padding-bottom: 32px; }
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-left: 4px solid var(--green-light);
+  transition: transform 0.1s;
+}
+.card:hover { transform: translateY(-2px); }
+.card h3 { font-size: 1rem; margin-bottom: 4px; color: var(--green); }
+.card p  { font-size: 0.88rem; color: var(--muted); }
+.card .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
+.tag {
+  background: #e8f5e9; color: var(--green);
+  border-radius: 4px; padding: 2px 7px; font-size: 0.76rem;
+}
+
+/* ── Post Content ── */
+.post-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; }
+.badge {
+  background: var(--green); color: #fff;
+  border-radius: 4px; padding: 3px 10px; font-size: 0.8rem;
+}
+.difficulty {
+  border-radius: 4px; padding: 3px 10px; font-size: 0.8rem;
+  background: #fff3cd; color: #856404;
+}
+.difficulty-easy    { background: #d4edda; color: #155724; }
+.difficulty-high    { background: #f8d7da; color: #721c24; }
+.data-badge { font-size: 0.8rem; color: var(--muted); align-self: center; }
+
+.post-content h2 { font-size: 1.3rem; margin-bottom: 12px; }
+.post-content h3 { font-size: 1rem; margin: 20px 0 6px; }
+.post-content p  { margin-bottom: 12px; }
+.post-content ul, .post-content ol { margin: 8px 0 12px 20px; }
+.post-content table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.88rem; }
+.post-content th, .post-content td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+.post-content th { background: #e8f5e9; }
+
+.cta-box { text-align: center; margin: 28px 0; }
+.btn-primary {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-primary:hover { background: var(--green-light); }
+
+.back-link { color: rgba(255,255,255,0.8); font-size: 0.9rem; text-decoration: none; display: block; margin-bottom: 8px; }
+
+/* ── Footer ── */
+footer {
+  background: var(--text);
+  color: #ccc;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+footer a { color: var(--gold); }
+footer .small { font-size: 0.75rem; opacity: 0.7; margin-top: 4px; }
+
+#no-results { text-align: center; color: var(--muted); padding: 32px 0; }

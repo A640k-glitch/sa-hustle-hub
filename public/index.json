@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "delivery-gigs",
+    "title": "Deliver with Checkers Sixty60 or Uber Eats",
+    "description": "Sign up as a delivery partner and get paid to deliver groceries and food in your neighbourhood. Flexible hours, weekly payouts.",
+    "category": "Gig Economy",
+    "tags": [
+      "delivery",
+      "gig",
+      "flexible",
+      "transport",
+      "local"
+    ]
+  },
+  {
+    "slug": "facebook-marketplace",
+    "title": "Sell Handmade or Secondhand on Facebook Marketplace",
+    "description": "Use Facebook Marketplace to sell items from home — no shop, no fees, no startup cost. Reach buyers in your local area instantly.",
+    "category": "Reselling & Crafts",
+    "tags": [
+      "reselling",
+      "facebook",
+      "local",
+      "secondhand",
+      "zero-capital",
+      "crafts"
+    ]
+  },
+  {
+    "slug": "online-tutoring",
+    "title": "Teach Online with Superprof or Teach Me 2",
+    "description": "If you passed matric or have any skill others want to learn, you can earn R100–R450/hour tutoring learners in your area or online.",
+    "category": "Education & Skills",
+    "tags": [
+      "tutoring",
+      "education",
+      "remote",
+      "skills",
+      "zero-capital"
+    ]
+  },
+  {
+    "slug": "sagapoll-surveys",
+    "title": "Earn on SagaPoll: Get Paid for Your Opinion",
+    "description": "SagaPoll is a 100% African survey platform where you answer quick surveys and earn cash or airtime — no cost to join.",
+    "category": "Surveys & Micro-Tasks",
+    "tags": [
+      "surveys",
+      "airtime",
+      "cash",
+      "mobile",
+      "zero-capital"
+    ]
+  },
+  {
+    "slug": "sweepsouth-domestic",
+    "title": "Earn with SweepSouth: Domestic Work on Your Terms",
+    "description": "SweepSouth connects you with vetted homeowners for cleaning and domestic work. Set your own hours, get paid weekly via EFT.",
+    "category": "Gig Economy",
+    "tags": [
+      "cleaning",
+      "domestic",
+      "local",
+      "flexible",
+      "zero-capital"
+    ]
+  },
+  {
+    "slug": "toloka-ai-tasks",
+    "title": "Label Data for AI with Toloka: R50–R300/day from Your Phone",
+    "description": "Toloka is a micro-task platform where you complete small data-labeling jobs for AI companies. Works on any smartphone, pays via PayPal.",
+    "category": "Surveys & Micro-Tasks",
+    "tags": [
+      "ai",
+      "micro-tasks",
+      "paypal",
+      "mobile",
+      "remote",
+      "zero-capital"
+    ]
+  }
+]

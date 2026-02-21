@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Free directory of verified, zero-capital side hustles for South Africans. Mobile-friendly, data-lite.">
+  <title>SA Hustle Hub – Free SA Income Opportunities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>🇿🇦 SA Hustle Hub</h1>
+      <p class="tagline">Verified, zero-capital ways to earn in South Africa.</p>
+      <input type="search" id="search" placeholder="Search hustles..." aria-label="Search hustles">
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="filter-bar">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="Surveys & Micro-Tasks">Surveys</button>
+      <button class="filter-btn" data-cat="Gig Economy">Gig Economy</button>
+      <button class="filter-btn" data-cat="Education & Skills">Education</button>
+      <button class="filter-btn" data-cat="Reselling & Crafts">Reselling</button>
+    </div>
+
+    <div id="results" class="card-grid">
+      <!-- Cards injected by search.js -->
+    </div>
+    <p id="no-results" hidden>No hustles found. Try a different search.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>💡 Know a legit hustle we missed? <a href="mailto:sahustlehub@example.com?subject=New Hustle Submission">Submit
+          it here</a>.</p>
+      <p class="small">All opportunities verified. No betting sites. No "get rich quick" schemes.</p>
+    </div>
+  </footer>
+
+  <script src="search.js"></script>
+</body>
+
+</html>

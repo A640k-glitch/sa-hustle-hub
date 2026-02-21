@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description }}">
+  <title>{{ title }} – SA Hustle Hub</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="../index.html" class="back-link">← Back to All Hustles</a>
+      <h1>🇿🇦 SA Hustle Hub</h1>
+    </div>
+  </header>
+
+  <main class="container post-content">
+    <div class="post-meta">
+      <span class="badge">{{ category }}</span>
+      <span class="difficulty difficulty-{{ difficulty | lower }}">{{ difficulty }}</span>
+      <span class="data-badge">Data: {{ data_usage }}</span>
+    </div>
+    <h2>{{ title }}</h2>
+    {{ body }}
+    <div class="cta-box">
+      <a href="{{ link }}" class="btn-primary" target="_blank" rel="noopener">Get Started →</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>💡 Know a legit hustle? <a href="mailto:sahustlehub@example.com?subject=New Hustle Submission">Submit it here</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
