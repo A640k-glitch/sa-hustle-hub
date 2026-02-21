@@ -20,7 +20,7 @@ from jinja2 import Environment, FileSystemLoader
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT  = os.path.join(ROOT, "content")
 TEMPLATES= os.path.join(ROOT, "templates")
-PUBLIC   = os.path.join(ROOT, "public")
+PUBLIC   = os.path.join(ROOT, "docs")
 POSTS_DIR= os.path.join(PUBLIC, "posts")
 TMP      = os.path.join(ROOT, ".tmp")
 
